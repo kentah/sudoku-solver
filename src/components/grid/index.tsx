@@ -4,7 +4,7 @@ import { Dispatch, AnyAction } from'redux'
 import useMousetrap from 'react-hook-mousetrap'
 
 import { INDEX, BLOCK_COORDS, NUMBERS, N, GRID } from 'typings'
-import { createFullGrid } from 'utils'
+//import { createFullGrid } from 'utils'
 import { Container, Row } from './styles'
 import Block from './block'
 import { createGrid, IReducer, selectBlock, fillBlock } from 'reducers'
